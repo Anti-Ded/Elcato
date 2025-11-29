@@ -1,6 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
   <head>
+<style>
+body { margin: 0; padding: 0; overflow: hidden; }
+#unity-container { width: 100vw !important; height: 100vh !important; }
+#unity-canvas { width: 100% !important; height: 100% !important; }
+</style>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | Elcato</title>
@@ -129,5 +135,23 @@
       document.body.appendChild(script);
 
     </script>
-  </body>
+  
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+<!-- VK Bridge SDK -->
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+<!-- РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ VK Bridge -->
+<script>
+if (typeof vkBridge !== 'undefined') {
+    vkBridge.send('VKWebAppInit');
+    console.log('VK Bridge initialized');
+}
+</script>
+
+</body>
 </html>
+
+

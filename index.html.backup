@@ -129,20 +129,5 @@
       document.body.appendChild(script);
 
     </script>
-  <!-- Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
-
-<!-- VK Bridge SDK -->
-<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-
-<!-- Инициализация VK Bridge -->
-<script>
-if (typeof vkBridge !== 'undefined') {
-    vkBridge.send('VKWebAppInit');
-    console.log('VK Bridge initialized');
-}
-</script>
-</body>
+  </body>
 </html>
-
