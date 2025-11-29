@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "113591559757",
+    "firebase_url": "https://koti-c8e08-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "koti-c8e08",
+    "storage_bucket": "koti-c8e08.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113591559757:android:2eacdb12900aacd3141e04",
+        "android_client_info": {
+          "package_name": "com.elcato.koti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA720B1hsoSOuVCxij7lUPSlF7kxRKGKb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
